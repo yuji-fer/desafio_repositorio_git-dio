@@ -1,0 +1,13 @@
+Para clonar um repositório:
+	git clone [URL do repositório] [(opcional) nome da pasta]
+
+Para visualizar os arquivos alterados:
+	git status
+
+Para salvar as alterações localmente:
+	git add . ou git add [nome dos arquivos]
+	git commit -m [descrição das alterações]
+
+Para salvar as alterações no repositório (remotamente):
+	git push origin [nome da branch]
+	* É possível realizar o push com várias branchs, basta informar o nome delas separado por espaço
